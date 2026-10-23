@@ -1,5 +1,5 @@
 
-[![Craft Defense - Official Trailer](https://thumbs.video-to-markdown.com/338c4c29.jpg)](https://youtu.be/6YgJXi5G74w)
+[![YouTube Video 6YgJXi5G74w](https://img.youtube.com/vi/6YgJXi5G74w/maxresdefault.jpg)](https://www.youtube.com/watch?v=6YgJXi5G74w)
 
 **Craft Defense** is a mod that aims to bring tower defense gameplay to Minecraft. Inspired by games like All Star Tower Defense (Roblox) and Bloons TD 6, the mod features a raid system with two towers, one of which will spawn enemies and the other the player will need to defend with mini units they can obtain during their journey.
 

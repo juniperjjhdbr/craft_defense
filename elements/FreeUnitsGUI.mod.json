@@ -1,0 +1,174 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 512,
+    "height": 512,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_leveled_up",
+          "text": {
+            "fixedValue": "You leveled up!"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 177,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_please_select_a_free_unit",
+          "text": {
+            "fixedValue": "Please select a free unit:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 150,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_skeleton_item2x",
+          "image": "skeleton_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP1",
+          "displayCondition": "Level2to4P",
+          "x": 118,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_zombie_item2x",
+          "image": "zombie_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP2",
+          "displayCondition": "Level2to4P2",
+          "x": 198,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_witch_item2x",
+          "image": "witch_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP3",
+          "displayCondition": "Level2to4P3",
+          "x": 280,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_villager_item2x",
+          "image": "villager_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP1",
+          "displayCondition": "Level5to7P",
+          "x": 118,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_stray_item2x",
+          "image": "stray_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP2",
+          "displayCondition": "Level5to7P2",
+          "x": 198,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_husk_item2x",
+          "image": "husk_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP3",
+          "displayCondition": "Level5to7P3",
+          "x": 280,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iron_golem_item2x",
+          "image": "iron_golem_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP1",
+          "displayCondition": "Level8to12P",
+          "x": 118,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_ravagerunit",
+          "image": "ravagerunit.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP2",
+          "displayCondition": "Level8to12P2",
+          "x": 198,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bogged_item2x",
+          "image": "bogged_item-2x.png",
+          "hoveredImage": "",
+          "onClick": "FreeUnitP3",
+          "displayCondition": "Level8to12P3",
+          "x": 280,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "onClosed": "FreeUnitsGUIThisGUIIsClosed",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

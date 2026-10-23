@@ -1,0 +1,409 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 220,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 18,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 109,
+          "y": 45,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trait_reroller",
+          "text": {
+            "fixedValue": "Trait Reroller"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 109,
+          "y": 27,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:TraitCube"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -33280,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 109,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trait_name",
+          "text": {
+            "fixedValue": "trait name",
+            "name": "ReturnUnitTrait"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 131,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_unit_name",
+          "text": {
+            "fixedValue": "unit name",
+            "name": "ReturnUnitName"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 131,
+          "y": 45,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "info",
+            "name": "ReturnUnitInfo"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 131,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_trait_rarity",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnTraitRarity"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 131,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_additional_luck_p",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnAdditionalLuckP"
+          },
+          "color": {
+            "value": -10027264,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 208,
+          "y": 27,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_roll",
+          "image": "roll.png",
+          "hoveredImage": "rollh.png",
+          "onClick": "RerollTraitProcedure",
+          "x": 203,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_roll",
+          "text": {
+            "fixedValue": "Roll"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 203,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:StatDice"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 109,
+          "y": 99,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_unit_first_level_sta",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnUnitFirstLevelStats"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 131,
+          "y": 99,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_20260817150557",
+          "image": "30_sem_titulo_20260817150557.png",
+          "hoveredImage": "30_sem_titulo_20260817153146.png",
+          "onClick": "LockDMGP",
+          "displayCondition": "LockCond1",
+          "x": 284,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dmg",
+          "text": {
+            "fixedValue": "DMG"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 293,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_202608171505571",
+          "image": "30_sem_titulo_20260817150557.png",
+          "hoveredImage": "30_sem_titulo_20260817153146.png",
+          "onClick": "LockRNGP",
+          "displayCondition": "LockCond3",
+          "x": 284,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rng",
+          "text": {
+            "fixedValue": "RNG"
+          },
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 293,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_spa",
+          "text": {
+            "fixedValue": "SPA"
+          },
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 293,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_202608171505572",
+          "image": "30_sem_titulo_20260817150557.png",
+          "hoveredImage": "30_sem_titulo_20260817153146.png",
+          "onClick": "LockSPAP",
+          "displayCondition": "LockCond5",
+          "x": 284,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lock_stats_reroll_uses_1_stat",
+          "text": {
+            "fixedValue": "Lock stats reroll (uses +1 stat dice per lock)"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 289,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lock_stats_reroll_uses_1_stat1",
+          "text": {
+            "fixedValue": "Lock stats reroll (uses +1 stat dice per lock)"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 289,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_20260817150521",
+          "image": "30_sem_titulo_20260817150521.png",
+          "hoveredImage": "30_sem_titulo_20260817153204.png",
+          "onClick": "LockDMGP",
+          "displayCondition": "LockCond2",
+          "x": 302,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_202608171505211",
+          "image": "30_sem_titulo_20260817150521.png",
+          "hoveredImage": "30_sem_titulo_20260817153204.png",
+          "onClick": "LockRNGP",
+          "displayCondition": "LockCond4",
+          "x": 302,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_30_sem_titulo_202608171505212",
+          "image": "30_sem_titulo_20260817150521.png",
+          "hoveredImage": "30_sem_titulo_20260817153204.png",
+          "onClick": "LockSPAP",
+          "displayCondition": "LockCond6",
+          "x": 302,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_lock_stats_reroll_uses_1_stat2",
+          "text": {
+            "fixedValue": "Lock stats reroll (uses +1 stat dice per lock)"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 289,
+          "y": 94,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 9,
+      "oy": 16,
+      "snapOnGrid": true
+    }
+  }
+}

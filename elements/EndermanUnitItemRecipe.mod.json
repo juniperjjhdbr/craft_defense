@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:EpicDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:EpicDust",
+      "Items.ENDER_PEARL",
+      "CUSTOM:TowerGem",
+      "Items.ENDER_PEARL",
+      "CUSTOM:EpicDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:EpicDust"
+    ],
+    "recipeReturnStack": "CUSTOM:EndermanUnitItem",
+    "name": "enderman_unit_item_recipe",
+    "namespace": "mod"
+  }
+}

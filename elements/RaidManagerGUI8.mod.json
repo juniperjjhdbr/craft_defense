@@ -1,0 +1,157 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 281,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "act2.png",
+          "use1Xscale": true,
+          "x": -16,
+          "y": -10,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cancel",
+          "text": "Cancel",
+          "isUndecorated": false,
+          "onClick": "StartRaidButtonP",
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_11",
+          "text": "6-1",
+          "isUndecorated": false,
+          "onClick": "A26P",
+          "displayCondition": "B25P",
+          "width": 40,
+          "height": 20,
+          "x": 150,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_12",
+          "text": "6-2",
+          "isUndecorated": false,
+          "onClick": "A27P",
+          "displayCondition": "B26P",
+          "width": 40,
+          "height": 20,
+          "x": 195,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_13",
+          "text": "6-3",
+          "isUndecorated": false,
+          "onClick": "A28P",
+          "displayCondition": "B27P",
+          "width": 40,
+          "height": 20,
+          "x": 240,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_14",
+          "text": "6-4",
+          "isUndecorated": false,
+          "onClick": "A29P",
+          "displayCondition": "B28P",
+          "width": 40,
+          "height": 20,
+          "x": 168,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_15",
+          "text": "6-5",
+          "isUndecorated": false,
+          "onClick": "A30P",
+          "displayCondition": "B29P",
+          "width": 40,
+          "height": 20,
+          "x": 213,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eba4.png",
+          "use1Xscale": false,
+          "displayCondition": "B30P",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hard_mode",
+          "text": "Challenges",
+          "isUndecorated": false,
+          "onClick": "H11P",
+          "displayCondition": "B30P",
+          "width": 72,
+          "height": 20,
+          "x": 308,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act6u.png",
+          "use1Xscale": true,
+          "x": 182,
+          "y": 125,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

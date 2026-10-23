@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_block"
+    },
+    "b": {
+      "item": "minecraft:quartz_block"
+    },
+    "c": {
+      "item": "craft_defense:rare_upgrade"
+    }
+  },
+  "result": {
+    "id": "craft_defense:unit_machine",
+    "count": 1
+  }
+}

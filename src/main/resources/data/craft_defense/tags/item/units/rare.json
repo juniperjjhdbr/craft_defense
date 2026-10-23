@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:witch_unit_item",
+    "craft_defense:spider_unit_item",
+    "craft_defense:skeleton_unit_item",
+    "craft_defense:zombie_unit_item",
+    "craft_defense:creeper_unit_item",
+    "craft_defense:wolf_unit_item",
+    "craft_defense:slime_unit_item"
+  ]
+}

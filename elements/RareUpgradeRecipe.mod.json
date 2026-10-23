@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Blocks.GLASS",
+      "",
+      "Blocks.GLASS",
+      "CUSTOM:TowerGem",
+      "Blocks.GLASS",
+      "",
+      "Blocks.GLASS",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:RareUpgrade",
+    "name": "rare_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

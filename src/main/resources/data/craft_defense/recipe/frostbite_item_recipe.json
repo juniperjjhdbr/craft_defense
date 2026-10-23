@@ -1,0 +1,45 @@
+{
+  "type": "craft_defense:unit_evolver_jei",
+  "ingredients": [
+    {
+      "item": "craft_defense:zombie_unit_item"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "craft_defense:legendary_dust"
+    },
+    {
+      "tag": "craft_defense:jei_empty_tag"
+    },
+    {
+      "tag": "craft_defense:jei_empty_tag"
+    },
+    {
+      "item": "craft_defense:mythic_upgrade"
+    },
+    {
+      "item": "craft_defense:evolution_crystal"
+    }
+  ],
+  "integers": [
+    1,
+    4,
+    1,
+    2,
+    0,
+    0,
+    1,
+    1
+  ],
+  "outputs": [
+    {
+      "id": "craft_defense:frostbite_unit_item",
+      "count": 1
+    }
+  ]
+}

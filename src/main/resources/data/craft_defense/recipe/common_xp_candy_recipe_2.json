@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "craft_defense:common_dust"
+    },
+    {
+      "item": "craft_defense:common_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "id": "craft_defense:common_xp_candy",
+    "count": 1
+  }
+}

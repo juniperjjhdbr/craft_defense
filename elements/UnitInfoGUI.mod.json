@@ -1,0 +1,350 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 261,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "unitinfo.png",
+          "use1Xscale": true,
+          "x": -11,
+          "y": -9,
+          "locked": true
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": "ShowEntityTest",
+          "scale": 100,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 69,
+          "y": 215,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_deploy_price",
+          "text": {
+            "fixedValue": "Deploy Price:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_200",
+          "text": {
+            "fixedValue": "200$"
+          },
+          "color": {
+            "value": -13369549,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 267,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_steve",
+          "text": {
+            "fixedValue": "Unit Name:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_steve1",
+          "text": {
+            "fixedValue": "Steve"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 249,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rarity",
+          "text": {
+            "fixedValue": "Rarity:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_common",
+          "text": {
+            "fixedValue": "Common"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 236,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level",
+          "text": {
+            "fixedValue": "Level:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "99"
+          },
+          "color": {
+            "value": -13369345,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trait",
+          "text": {
+            "fixedValue": "Trait: "
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_swordsman",
+          "text": {
+            "fixedValue": "Swordsman"
+          },
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_owner",
+          "text": {
+            "fixedValue": "Owner:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_polarks9",
+          "text": {
+            "fixedValue": "polarks9"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_basic_info",
+          "text": {
+            "fixedValue": "Basic Info"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 213,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_evolved",
+          "text": {
+            "fixedValue": "Evolution Crystals:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_no",
+          "text": {
+            "fixedValue": "0/1"
+          },
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 299,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_times_used",
+          "text": {
+            "fixedValue": "Times Used:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_100",
+          "text": {
+            "fixedValue": "100"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 254,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_total_damage_dealed",
+          "text": {
+            "fixedValue": "Total Damage Dealed:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 170,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

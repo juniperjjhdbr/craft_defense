@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust",
+      "Items.ROTTEN_FLESH",
+      "Items.IRON_SHOVEL",
+      "Items.ROTTEN_FLESH",
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust"
+    ],
+    "recipeReturnStack": "CUSTOM:ZombieUnitItem",
+    "name": "zombie_unit_item_recipe",
+    "namespace": "mod"
+  }
+}

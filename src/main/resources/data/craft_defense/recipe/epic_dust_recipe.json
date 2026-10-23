@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:rare_dust"
+    },
+    "b": {
+      "tag": "craft_defense:units/epic"
+    }
+  },
+  "result": {
+    "id": "craft_defense:epic_dust",
+    "count": 2
+  }
+}

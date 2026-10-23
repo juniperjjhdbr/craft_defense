@@ -1,0 +1,17 @@
+package net.juujks.craft_defense.procedures;
+
+import net.minecraft.world.entity.Entity;
+
+import net.juujks.craft_defense.network.CraftDefenseModVariables;
+
+public class Level8to12PProcedure {
+	public static boolean execute(Entity entity) {
+		if (entity == null)
+			return false;
+		if (entity.getData(CraftDefenseModVariables.PLAYER_VARIABLES).playerLevel >= 8 && entity.getData(CraftDefenseModVariables.PLAYER_VARIABLES).playerLevel <= 12 && entity.getData(CraftDefenseModVariables.PLAYER_VARIABLES).legendaryChosen <= 2
+				&& entity.getData(CraftDefenseModVariables.PLAYER_VARIABLES).epicChosen >= 3 && !entity.getData(CraftDefenseModVariables.PLAYER_VARIABLES).fu1) {
+			return true;
+		}
+		return false;
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:villager_unit_item",
+    "craft_defense:pufferfish_unit_item",
+    "craft_defense:cave_spider_unit_item",
+    "craft_defense:zombified_piglin_item",
+    "craft_defense:pillager_unit_item",
+    "craft_defense:magma_cube_unit_item",
+    "craft_defense:piglin_unit_item",
+    "craft_defense:stray_unit_item",
+    "craft_defense:husk_unit_item",
+    "craft_defense:enderman_unit_item"
+  ]
+}

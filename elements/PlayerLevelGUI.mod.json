@@ -1,0 +1,555 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 347,
+    "height": 100,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "leveluou2.png",
+          "use1Xscale": true,
+          "x": 35,
+          "y": 68,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level",
+          "text": {
+            "fixedValue": "Level:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 137,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl2.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnLevel1P",
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_99",
+          "text": {
+            "fixedValue": "99",
+            "name": "ReturnPlayerLevelP"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 179,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl2.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 73,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl2.png",
+          "use1Xscale": false,
+          "x": 92,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 105,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_plains",
+          "text": {
+            "fixedValue": "Map Unlocked: Plains"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 65,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_snow_valley",
+          "text": {
+            "fixedValue": "Map Unlocked: Snow Valley"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 96,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl2.png",
+          "use1Xscale": false,
+          "x": 123,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_51",
+          "text": {
+            "fixedValue": "5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 136,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_the_mines",
+          "text": {
+            "fixedValue": "Map Unlocked: The Mines"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_plains_village",
+          "text": {
+            "fixedValue": "Map Unlocked: Plains Village"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 159,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl2.png",
+          "use1Xscale": false,
+          "x": 155,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_8",
+          "text": {
+            "fixedValue": "8"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 168,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_challenges_unlocked",
+          "text": {
+            "fixedValue": "4x Evolution Crystals"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 194,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_10",
+          "text": {
+            "fixedValue": "10"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 200,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl3.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl3.png",
+          "use1Xscale": false,
+          "x": 224,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_12",
+          "text": {
+            "fixedValue": "12"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 234,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_desert_maze",
+          "text": {
+            "fixedValue": "Map Unlocked: Desert Maze"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 228,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl3.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_ocean_temple",
+          "text": {
+            "fixedValue": "4x Evolution Crystals"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 263,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_17",
+          "text": {
+            "fixedValue": "15"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 269,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl3.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_map_unlocked_ocean_temple1",
+          "text": {
+            "fixedValue": "Map Unlocked: Ocean Temple"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 299,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_171",
+          "text": {
+            "fixedValue": "17"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 305,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_20",
+          "text": {
+            "fixedValue": "20"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 341,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_more_levels_coming_soon",
+          "text": {
+            "fixedValue": "4x Evolution Crystals"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 335,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl4.png",
+          "use1Xscale": false,
+          "x": 330,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_level_remaining",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnLevelRemaining"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 222,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl3.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnLevel2P",
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl4.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnLevel3P",
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl5.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnLevel4P",
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl6.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnLevel5P",
+          "x": 168,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_quests",
+          "text": "Quests",
+          "isUndecorated": false,
+          "onClick": "OpenQuestsP",
+          "width": 56,
+          "height": 20,
+          "x": 72,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_time_played",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnTimePlayed"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 137,
+          "y": 172,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_free_unit",
+          "text": "Free Unit",
+          "isUndecorated": false,
+          "onClick": "OpenFuGUI",
+          "width": 70,
+          "height": 20,
+          "x": 295,
+          "y": 92,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 3,
+      "sy": 3,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

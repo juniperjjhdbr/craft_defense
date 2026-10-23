@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "unit_evolver_jei",
+    "ingredients": [
+      "CUSTOM:ZombieUnitItem",
+      "Blocks.BLUE_ICE",
+      "Items.POWDER_SNOW_BUCKET",
+      "CUSTOM:LegendaryDust",
+      "Blocks.AIR",
+      "Blocks.AIR",
+      "CUSTOM:MythicUpgrade",
+      "CUSTOM:EvolutionCrystal"
+    ],
+    "integers": [
+      1,
+      4,
+      1,
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    "strings": [],
+    "recipetype": "UnitEvolverJEI",
+    "results": [
+      "CUSTOM:FrostbiteUnitItem"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

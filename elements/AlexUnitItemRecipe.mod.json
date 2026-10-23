@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:CommonDust",
+      "Items.BOW",
+      "CUSTOM:CommonDust",
+      "Items.BOW",
+      "CUSTOM:TowerGem",
+      "Items.BOW",
+      "CUSTOM:CommonDust",
+      "Items.BOW",
+      "CUSTOM:CommonDust"
+    ],
+    "recipeReturnStack": "CUSTOM:AlexUnit",
+    "name": "alex_unit_item_recipe",
+    "namespace": "mod"
+  }
+}

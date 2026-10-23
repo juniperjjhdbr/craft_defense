@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust",
+      "Items.SLIME_BALL",
+      "Blocks.SLIME_BLOCK",
+      "Items.SLIME_BALL",
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust"
+    ],
+    "recipeReturnStack": "CUSTOM:SlimeUnitItem",
+    "name": "slime_unit_item_recipe",
+    "namespace": "mod"
+  }
+}

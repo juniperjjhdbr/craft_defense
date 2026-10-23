@@ -1,0 +1,17 @@
+{
+    "name": "Tower Gem",
+    "icon": "craft_defense:tower_gem",
+    "category": "craft_defense:c1",
+    "sortnum": 3,
+    "pages": [
+        {
+        "type": "patchouli:spotlight",
+        "item": "craft_defense:tower_gem",
+        "text": "Tower Gems are special items that can be used for many different things. One of its main uses is to roll units in the unit machine. Tower Gems can only be obtained by completing raids and its amount varies based on the current act."},
+        {
+        "type": "patchouli:crafting",
+        "recipe": "craft_defense:unit_machine_recipe",
+        "text": "Most units are obtained rolling in the unit machine, but the first two common units are given for free."
+        }
+    ]
+}

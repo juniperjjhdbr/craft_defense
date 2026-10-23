@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:steve_unit",
+    "craft_defense:alex_unit"
+  ]
+}

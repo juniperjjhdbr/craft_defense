@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "craft_defense:tower_gem"
+    },
+    "d": {
+      "item": "craft_defense:epic_dust"
+    },
+    "e": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "craft_defense:unit_incubator",
+    "count": 1
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 220,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "raidmanageamento2.png",
+          "use1Xscale": true,
+          "x": 38,
+          "y": 8,
+          "locked": true
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "story3u.png",
+          "hoveredImage": "story3h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_story2u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "StartRaidButtonP",
+          "width": 128,
+          "height": 72,
+          "x": 78,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "C901p",
+          "x": 78,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "C1000P",
+          "x": 222,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_main_maps",
+          "text": {
+            "fixedValue": "Main Maps"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 83,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_infinity_mode",
+          "text": {
+            "fixedValue": "Infinity Mode"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "B1000P",
+          "x": 227,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_boss_rush",
+          "text": {
+            "fixedValue": "Boss Rush"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "B901P",
+          "x": 83,
+          "y": 193,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_dcu3",
+          "image": "dcu3.png",
+          "hoveredImage": "dch3.png",
+          "onClick": "DiscordButton",
+          "x": 353,
+          "y": 193,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_unlocked_if_map_2",
+          "text": {
+            "fixedValue": "Unlocked in Map 2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "C901p",
+          "x": 101,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_completion",
+          "text": {
+            "fixedValue": "completion"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "C901p",
+          "x": 119,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_unlocked_in_map_1",
+          "text": {
+            "fixedValue": "Unlocked in Map 1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "C1000P",
+          "x": 240,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_completion1",
+          "text": {
+            "fixedValue": "completion"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "C1000P",
+          "x": 258,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_year_anniversary_event",
+          "text": {
+            "fixedValue": "Anniversary Event"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 227,
+          "y": 193,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "inf1u.png",
+          "hoveredImage": "inf1h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_inf21u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "A100P",
+          "displayCondition": "Inf1P",
+          "width": 128,
+          "height": 72,
+          "x": 222,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "inf2u.png",
+          "hoveredImage": "inf2h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_inf22u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "A100P",
+          "displayCondition": "Inf2P",
+          "width": 128,
+          "height": 72,
+          "x": 222,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "inf3u.png",
+          "hoveredImage": "inf3h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_inf23u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "A100P",
+          "displayCondition": "Inf3P",
+          "width": 128,
+          "height": 72,
+          "x": 222,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "bru.png",
+          "hoveredImage": "brh.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_br2u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "BR1P",
+          "displayCondition": "B901P",
+          "width": 128,
+          "height": 72,
+          "x": 78,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "eu.png",
+          "hoveredImage": "eh.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_e1u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "E1P",
+          "width": 128,
+          "height": 72,
+          "x": 222,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_custom_maps_are_temporarily_disa",
+          "text": {
+            "fixedValue": "Custom Maps are temporarily disabled"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 119,
+          "y": 209,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "IsStarterP",
+    "onTick": "InfCooldownImage",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

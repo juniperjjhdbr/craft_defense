@@ -1,0 +1,6 @@
+{
+  "parent": "craft_defense:displaysettings/portal2",
+  "textures": {
+    "particle": "craft_defense:block/portal_texture2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/trophy6",
+  "textures": {
+    "all": "craft_defense:block/trphy6",
+    "particle": "craft_defense:block/trphy6",
+    "1": "craft_defense:block/trphy6"
+  },
+  "render_type": "translucent"
+}

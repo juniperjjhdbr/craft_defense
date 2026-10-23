@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:trait_cube"
+    },
+    "b": {
+      "item": "craft_defense:second_world_trophy"
+    },
+    "c": {
+      "item": "craft_defense:epic_dust"
+    },
+    "d": {
+      "item": "craft_defense:epic_upgrade"
+    },
+    "e": {
+      "item": "craft_defense:third_world_trophy"
+    }
+  },
+  "result": {
+    "id": "craft_defense:legendary_upgrade",
+    "count": 1
+  }
+}

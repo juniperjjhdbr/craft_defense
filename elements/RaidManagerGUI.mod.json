@@ -1,0 +1,530 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 261,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "map3.png",
+          "use1Xscale": true,
+          "x": -16,
+          "y": -10,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_act_1_plains",
+          "text": {
+            "fixedValue": "1. Plains"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 15,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_avaiable_in_update_2",
+          "text": {
+            "fixedValue": "3. The Mines"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActLockedP2",
+          "x": 294,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coming_soon",
+          "text": {
+            "fixedValue": "4. Plains Village"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActLockedP3",
+          "x": 15,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coming_soon1",
+          "text": {
+            "fixedValue": "5. Desert Maze"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActLockedP4",
+          "x": 155,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coming_soon3",
+          "text": {
+            "fixedValue": "6. Ocean Temple"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActLockedP5",
+          "x": 294,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_page",
+          "text": "Cancel",
+          "isUndecorated": false,
+          "onClick": "CancelRaidButtonP",
+          "width": 72,
+          "height": 20,
+          "x": 182,
+          "y": 215,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2_snow",
+          "text": {
+            "fixedValue": "2. Snow Valley"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActLockedP1",
+          "x": 155,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "ActUnlockedP1",
+          "x": 150,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_map_unlocked_in_level_3",
+          "text": {
+            "fixedValue": "Map unlocked in Level 3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP1",
+          "x": 155,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "ActUnlockedP2",
+          "x": 290,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_map_unlocked_in_level_5",
+          "text": {
+            "fixedValue": "Map unlocked in Level 5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP2",
+          "x": 294,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "ActUnlockedP3",
+          "x": 11,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_map_unlocked_in_level_12",
+          "text": {
+            "fixedValue": "Map unlocked in"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP3",
+          "x": 33,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level_12",
+          "text": {
+            "fixedValue": "Level 8"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP3",
+          "x": 51,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "ActUnlockedP4",
+          "x": 150,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_map_unlocked_in",
+          "text": {
+            "fixedValue": "Map unlocked in"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP4",
+          "x": 177,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level_121",
+          "text": {
+            "fixedValue": "Level 12"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP4",
+          "x": 195,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_press_b_to_view_player_stats",
+          "text": {
+            "fixedValue": "Press B to view player stats!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 276,
+          "y": 229,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_map_unlocked_in1",
+          "text": {
+            "fixedValue": "Map unlocked in"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP5",
+          "x": 317,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level_17",
+          "text": {
+            "fixedValue": "Level 17"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "ActUnlockedP5",
+          "x": 335,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act00.png",
+          "use1Xscale": false,
+          "displayCondition": "ActUnlockedP5",
+          "x": 290,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act12u.png",
+          "hoveredImage": "act12h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a1u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP",
+          "width": 128,
+          "height": 72,
+          "x": 11,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act22u.png",
+          "hoveredImage": "act22h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a2u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP2",
+          "displayCondition": "ActLockedP1",
+          "width": 128,
+          "height": 72,
+          "x": 150,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act3u.png",
+          "hoveredImage": "act3h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a3u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP3",
+          "displayCondition": "ActLockedP2",
+          "width": 128,
+          "height": 72,
+          "x": 290,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act4u.png",
+          "hoveredImage": "act4u.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a4u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP4",
+          "displayCondition": "ActLockedP3",
+          "width": 128,
+          "height": 72,
+          "x": 11,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act5u.png",
+          "hoveredImage": "act5h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a5u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP5",
+          "displayCondition": "ActLockedP4",
+          "width": 128,
+          "height": 72,
+          "x": 150,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "enhanced_image_button",
+        "data": {
+          "image": "act6u.png",
+          "hoveredImage": "act6h.png",
+          "pressedImage": "",
+          "textColor": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "textShadow": true,
+          "fontScale": 100,
+          "togglePressedTexture": false,
+          "name": "enhanced_image_button_a6u",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": "MapSelectButtonP6",
+          "displayCondition": "ActLockedP5",
+          "width": 128,
+          "height": 72,
+          "x": 290,
+          "y": 125,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "IsStarterP",
+    "onTick": "InfCooldownImage",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

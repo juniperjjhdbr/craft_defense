@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "craft_defense:block/start_tower"
+    },
+    "facing=east": {
+      "model": "craft_defense:block/start_tower",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "craft_defense:block/start_tower",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "craft_defense:block/start_tower",
+      "y": 270
+    }
+  }
+}

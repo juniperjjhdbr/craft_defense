@@ -1,0 +1,40 @@
+{
+  "entity.frostbite.ambient": {
+    "sounds": [
+      {
+        "name": "craft_defense:ambient1",
+        "stream": false
+      },
+      {
+        "name": "craft_defense:ambient2",
+        "stream": false
+      },
+      {
+        "name": "craft_defense:ambient3",
+        "stream": false
+      },
+      {
+        "name": "craft_defense:ambient4",
+        "stream": false
+      }
+    ]
+  },
+  "music_disc.bounce": {
+    "subtitle": "subtitles.music_disc.bounce",
+    "sounds": [
+      {
+        "name": "craft_defense:bounce",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.tears": {
+    "subtitle": "subtitles.music_disc.tears",
+    "sounds": [
+      {
+        "name": "craft_defense:tears",
+        "stream": true
+      }
+    ]
+  }
+}

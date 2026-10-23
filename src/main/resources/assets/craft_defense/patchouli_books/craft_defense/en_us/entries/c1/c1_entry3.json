@@ -1,0 +1,36 @@
+{
+    "name": "Units",
+    "icon": "craft_defense:steve_unit",
+    "category": "craft_defense:c1",
+    "sortnum": 2,
+    "pages": [
+        {
+        "type": "patchouli:text",
+        "text": "Units are entities that can defend the blue tower from the enemies. They can be placed on the map and will automatically attack any enemies that come within range. There are different types of units, each with different damage types and rarity."
+        },
+        {
+        "type": "patchouli:crafting",
+        "recipe": "craft_defense:unit_machine_recipe",
+        "text": "Most units are obtained rolling in the unit machine, but the first two common units are given for free."
+        },
+        {
+        "type": "patchouli:text",
+        "title": "Units Types",
+        "text": "Units have three main attack types: $(br)- Ground: Can only attack ground enemies and be placed on the ground$(br)- Aerial: Can attack every type of enemy but can only be placed on aerial blocks$(br)- Hybrid: Can attack every type of enemy but can only be placed on the ground$(br)"},
+        {
+        "type": "patchouli:text",
+        "title": "Units Attack Types",
+        "text": "Units can also deal damage in different ways depending on their attack type: $(br)- Farmer: Will not deal any damage but will farm money instead$(br)- Explosive: Will attack using explosions$(br)- Poisoning: Will apply poison in enemies$(br)- Decelerate: Will make enemies slower$(br)- Stunning: Will temporarily stun enemies$(br)- Breezing: Will knockback enemies$(br)- Burning: Will put enemies on fire"},
+        {
+        "type": "patchouli:text",
+        "title": "Unit XP",
+        "text": "Units can level up by completing raids. When a unit is leveled up, it will deal more damage. The current level cap is 50, but it can be increased in the config file."
+        },
+        {
+        "type": "patchouli:spotlight",
+        "item": "craft_defense:common_xp_candy",
+        "text": "Units can level up by using XP Candies. XP Candies can be obtained randomly by completing raids, by completing quests or by crafting them."
+        }
+        
+    ]
+}

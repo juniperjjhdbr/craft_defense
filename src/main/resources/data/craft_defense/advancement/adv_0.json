@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "craft_defense:tower_gem"
+    },
+    "title": {
+      "translate": "advancements.adv_0.title"
+    },
+    "description": {
+      "translate": "advancements.adv_0.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_0_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "craft_defense:raid_manager_recipe",
+      "craft_defense:unit_machine_recipe",
+      "craft_defense:epic_upgrade_recipe",
+      "craft_defense:trait_reroller_recipe",
+      "craft_defense:legendary_upgrade_recipe"
+    ]
+  }
+}

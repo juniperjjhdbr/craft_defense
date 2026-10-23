@@ -1,0 +1,390 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 261,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "queue1.png",
+          "use1Xscale": true,
+          "x": -16,
+          "y": -1,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_queue_players",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnQueuePlayers"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnNotEditingP",
+          "x": 141,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_votes_to_start",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnVotesToStart"
+          },
+          "color": {
+            "value": -10027162,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnNotEditingP",
+          "x": 141,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_map_p",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnMapP"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnNotEditingP",
+          "x": 141,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eba3.png",
+          "use1Xscale": false,
+          "x": 303,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_difficulty",
+          "text": {
+            "fixedValue": "Difficulty"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 321,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1star.png",
+          "use1Xscale": false,
+          "displayCondition": "W1R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act22u.png",
+          "use1Xscale": true,
+          "displayCondition": "W2R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2star.png",
+          "use1Xscale": false,
+          "displayCondition": "W2R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act3u.png",
+          "use1Xscale": true,
+          "displayCondition": "W3R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3star.png",
+          "use1Xscale": false,
+          "displayCondition": "W3R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "4star.png",
+          "use1Xscale": false,
+          "displayCondition": "W4R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5star.png",
+          "use1Xscale": false,
+          "displayCondition": "W5R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10star.png",
+          "use1Xscale": false,
+          "displayCondition": "WInfR",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inf2u.png",
+          "use1Xscale": true,
+          "displayCondition": "WInfR",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act12u.png",
+          "use1Xscale": true,
+          "displayCondition": "W1R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act4u.png",
+          "use1Xscale": true,
+          "displayCondition": "W4R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act5u.png",
+          "use1Xscale": true,
+          "displayCondition": "W5R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act6u.png",
+          "use1Xscale": true,
+          "displayCondition": "W6R",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "6star.png",
+          "use1Xscale": false,
+          "displayCondition": "W6R",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10star.png",
+          "use1Xscale": false,
+          "displayCondition": "WBR1",
+          "x": 308,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bru.png",
+          "use1Xscale": true,
+          "displayCondition": "WBR1",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_play",
+          "image": "play.png",
+          "hoveredImage": "playh.png",
+          "onClick": "StartButtonP",
+          "displayCondition": "ReturnNotEditingP",
+          "x": 173,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cancel",
+          "image": "cancel.png",
+          "hoveredImage": "cancelh.png",
+          "onClick": "ClaimButton",
+          "displayCondition": "ReturnNotEditingP",
+          "x": 204,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_start",
+          "text": {
+            "fixedValue": "Start"
+          },
+          "displayCondition": "ReturnNotEditingP",
+          "width": 24,
+          "height": 24,
+          "x": 173,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_cancel",
+          "text": {
+            "fixedValue": "Cancel"
+          },
+          "displayCondition": "ReturnNotEditingP",
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_share",
+          "image": "share.png",
+          "hoveredImage": "shareh.png",
+          "onClick": "ShareButton",
+          "displayCondition": "ReturnNotEditingP",
+          "x": 236,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_share_in_chat",
+          "text": {
+            "fixedValue": "Share in chat"
+          },
+          "displayCondition": "ReturnNotEditingP",
+          "width": 24,
+          "height": 24,
+          "x": 236,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eu.png",
+          "use1Xscale": true,
+          "displayCondition": "WE1",
+          "x": 317,
+          "y": 130,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "IsStarterP2",
+    "onTick": "QueueOnTickUpdate",
+    "onClosed": "ClosedQueueGUI",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

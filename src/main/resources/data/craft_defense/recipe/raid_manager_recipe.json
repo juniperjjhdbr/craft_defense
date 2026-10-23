@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "b": {
+      "item": "minecraft:comparator"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "craft_defense:raid_manager",
+    "count": 1
+  }
+}

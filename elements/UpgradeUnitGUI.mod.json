@@ -1,0 +1,375 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "testamento5.png",
+          "use1Xscale": true,
+          "x": 126,
+          "y": 29,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eba3.png",
+          "use1Xscale": true,
+          "x": 146,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_upgrade",
+          "text": "Upgrade",
+          "isUndecorated": false,
+          "onClick": "UpgradeSystem",
+          "width": 61,
+          "height": 20,
+          "x": 159,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sell",
+          "text": "Sell",
+          "isUndecorated": false,
+          "onClick": "SellUnitP",
+          "width": 46,
+          "height": 20,
+          "x": 222,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_dmg_p",
+          "text": {
+            "fixedValue": "",
+            "name": "DmgP2"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 236,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_rng_p",
+          "text": {
+            "fixedValue": "raingi",
+            "name": "RngP"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 236,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_spa_p",
+          "text": {
+            "fixedValue": "spa",
+            "name": "SpaP"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 236,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_lvl_p",
+          "text": {
+            "fixedValue": "level",
+            "name": "LvlP"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wooden_sword.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wooden_sword_1.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "speed.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_money_show_overlay",
+          "text": {
+            "fixedValue": "",
+            "name": "MoneyShowOverlay"
+          },
+          "color": {
+            "value": -16711917,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 87,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_wave_show_overlay",
+          "text": {
+            "fixedValue": "",
+            "name": "WaveShowOverlay"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 87,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_next_up_p",
+          "text": {
+            "fixedValue": "",
+            "name": "NextUpP"
+          },
+          "color": {
+            "value": -15794432,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 173,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eba3.png",
+          "use1Xscale": true,
+          "x": 83,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_unit_level_p",
+          "text": {
+            "fixedValue": "",
+            "name": "UnitLevelP"
+          },
+          "color": {
+            "value": -16717592,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nearest",
+          "text": {
+            "fixedValue": "Nearest",
+            "name": "ReturnPriorityP"
+          },
+          "color": {
+            "value": -65310,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 218,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "isUndecorated": false,
+          "onClick": "ChangePriorityP",
+          "width": 30,
+          "height": 20,
+          "x": 218,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trait_debug",
+          "text": {
+            "fixedValue": "trait debug",
+            "name": "ReturnTraitP"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_damage_buff",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnDamageBuff"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnDMGBP",
+          "x": 236,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_range_buff",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnRangeBuff"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnRNGBP",
+          "x": 236,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_spa_buff",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnSpaBuff"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnSPABP",
+          "x": 236,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": "ShowEntityTest",
+          "scale": 15,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 158,
+          "y": 71,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "CheckIfOwner",
+    "onTick": "CheckIfOwner",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

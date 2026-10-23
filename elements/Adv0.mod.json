@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Craft Defense",
+    "achievementDescription": "Thank you for installing the mod!",
+    "achievementIcon": "CUSTOM:TowerGem",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "RaidManagerRecipe",
+      "UnitMachineRecipe",
+      "EpicUpgradeRecipe",
+      "TraitRerollerRecipe",
+      "LegendaryUpgradeRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "No parent: root",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"tick\"/></next></block></xml>"
+  }
+}

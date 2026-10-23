@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "craft_defense:block/um_down",
+    "up": "craft_defense:block/unit_machine_top",
+    "north": "craft_defense:block/withou",
+    "east": "craft_defense:block/withou",
+    "south": "craft_defense:block/withou",
+    "west": "craft_defense:block/withou",
+    "particle": "craft_defense:block/um_down"
+  },
+  "render_type": "solid"
+}

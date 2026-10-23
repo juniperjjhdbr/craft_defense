@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "unit_machine_jei",
+    "result": {
+      "value": "Blocks.STONE#5"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ]
+  }
+}

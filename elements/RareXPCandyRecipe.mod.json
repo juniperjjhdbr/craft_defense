@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "CUSTOM:CommonXpCandy",
+      "CUSTOM:CommonXpCandy",
+      "",
+      "CUSTOM:CommonXpCandy",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:RareXpCandy",
+    "name": "rare_xp_candy_recipe",
+    "namespace": "mod"
+  }
+}

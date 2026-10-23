@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#craft_defense:units/rare",
+      "required": false
+    },
+    {
+      "id": "#craft_defense:units/epic",
+      "required": false
+    }
+  ]
+}

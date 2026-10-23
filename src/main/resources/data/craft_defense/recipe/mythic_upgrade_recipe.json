@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:evolution_crystal"
+    },
+    "b": {
+      "item": "craft_defense:fourth_world_trophy"
+    },
+    "c": {
+      "item": "craft_defense:legendary_dust"
+    },
+    "d": {
+      "item": "craft_defense:legendary_upgrade"
+    },
+    "e": {
+      "item": "craft_defense:fifth_world_trophy"
+    }
+  },
+  "result": {
+    "id": "craft_defense:mythic_upgrade",
+    "count": 1
+  }
+}

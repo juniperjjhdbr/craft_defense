@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:trait_cube",
+    "craft_defense:stat_dice"
+  ]
+}

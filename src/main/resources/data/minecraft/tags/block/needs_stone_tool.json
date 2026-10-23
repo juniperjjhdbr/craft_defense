@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:unit_evolver",
+    "craft_defense:trait_reroller",
+    "craft_defense:unit_recycler"
+  ]
+}

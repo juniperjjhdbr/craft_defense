@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "craft_defense:raid_manager"
+    },
+    "title": {
+      "translate": "advancements.adv_1.title"
+    },
+    "description": {
+      "translate": "advancements.adv_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_1_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "craft_defense:raid_manager",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "craft_defense:raid_manager_recipe",
+      "craft_defense:unit_machine_recipe",
+      "craft_defense:epic_upgrade_recipe",
+      "craft_defense:trait_reroller_recipe",
+      "craft_defense:legendary_upgrade_recipe"
+    ]
+  },
+  "parent": "craft_defense:adv_0"
+}

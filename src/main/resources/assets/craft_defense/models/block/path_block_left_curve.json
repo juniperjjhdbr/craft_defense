@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "craft_defense:block/new_path_block8",
+    "up": "craft_defense:block/new_path_block3",
+    "north": "craft_defense:block/new_path_block8",
+    "east": "craft_defense:block/new_path_block8",
+    "south": "craft_defense:block/new_path_block8",
+    "west": "craft_defense:block/new_path_block8",
+    "particle": "craft_defense:block/new_path_block8"
+  },
+  "render_type": "solid"
+}

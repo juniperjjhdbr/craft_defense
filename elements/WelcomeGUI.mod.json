@@ -1,0 +1,158 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 120,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_it_looks_like_its_your_first_ti",
+          "text": {
+            "fixedValue": "It looks like it's your first"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_time_using_this_block_take",
+          "text": {
+            "fixedValue": "time using this block. Take"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_these_two_units_as_your",
+          "text": {
+            "fixedValue": "these two units to start your"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_adventure",
+          "text": {
+            "fixedValue": "adventure!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 186,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_thank_you",
+          "text": "Thank you!",
+          "isUndecorated": false,
+          "onClick": "ClaimButton",
+          "width": 77,
+          "height": 20,
+          "x": 168,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "alex_item.png",
+          "use1Xscale": false,
+          "x": 195,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "player_item.png",
+          "use1Xscale": false,
+          "x": 195,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1x",
+          "text": {
+            "fixedValue": "1x"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 213,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1x1",
+          "text": {
+            "fixedValue": "1x"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 213,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

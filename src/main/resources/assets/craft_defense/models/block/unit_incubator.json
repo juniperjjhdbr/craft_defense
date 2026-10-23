@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/unit_incubator",
+  "textures": {
+    "all": "craft_defense:block/texture_1",
+    "particle": "craft_defense:block/texture_1",
+    "0": "craft_defense:block/texture_1"
+  },
+  "render_type": "translucent"
+}

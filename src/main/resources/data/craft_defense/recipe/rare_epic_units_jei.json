@@ -1,0 +1,11 @@
+{
+  "type": "craft_defense:unit_machine_jei",
+  "ingredients": [
+    {
+      "item": "craft_defense:epic_upgrade"
+    }
+  ],
+  "output": {
+    "tag": "craft_defense:units/rare_epic"
+  }
+}

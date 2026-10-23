@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "craft_defense:trait_cube"
+    },
+    "title": {
+      "translate": "advancements.adv_8.title"
+    },
+    "description": {
+      "translate": "advancements.adv_8.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_8_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "craft_defense:adv_1"
+}

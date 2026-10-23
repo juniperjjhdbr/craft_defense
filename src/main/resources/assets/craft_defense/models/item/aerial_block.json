@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "craft_defense:item/sem_tiaaaaaaaaaaatulo"
+  },
+  "render_type": "translucent"
+}

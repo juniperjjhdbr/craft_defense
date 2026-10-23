@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/unit_recycler",
+  "textures": {
+    "all": "craft_defense:block/unit_recycler",
+    "particle": "craft_defense:block/unit_recycler",
+    "0": "craft_defense:block/unit_recycler"
+  },
+  "render_type": "cutout"
+}

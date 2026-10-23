@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:legendary_dust"
+    },
+    "b": {
+      "item": "craft_defense:tower_gem"
+    },
+    "c": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "id": "craft_defense:snow_golem_unit_item",
+    "count": 1
+  }
+}

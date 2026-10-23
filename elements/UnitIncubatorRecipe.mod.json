@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.POLISHED_DEEPSLATE",
+      "Items.REDSTONE",
+      "Blocks.POLISHED_DEEPSLATE",
+      "CUSTOM:TowerGem",
+      "CUSTOM:EpicDust",
+      "CUSTOM:TowerGem",
+      "Blocks.POLISHED_DEEPSLATE",
+      "Items.CLOCK",
+      "Blocks.POLISHED_DEEPSLATE"
+    ],
+    "recipeReturnStack": "CUSTOM:UnitIncubator",
+    "name": "unit_incubator_recipe",
+    "namespace": "mod"
+  }
+}

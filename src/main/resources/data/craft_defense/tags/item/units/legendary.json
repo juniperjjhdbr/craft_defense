@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:drowned_unit_item",
+    "craft_defense:charged_creeper_unit_item",
+    "craft_defense:breeze_unit_item",
+    "craft_defense:snow_golem_unit_item",
+    "craft_defense:bogged_unit_item",
+    "craft_defense:iron_golem_unit_item",
+    "craft_defense:polar_bear_unit_item",
+    "craft_defense:ravager_unit_item"
+  ]
+}

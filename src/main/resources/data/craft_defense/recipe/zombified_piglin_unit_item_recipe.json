@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbd",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:epic_dust"
+    },
+    "b": {
+      "item": "craft_defense:tower_gem"
+    },
+    "c": {
+      "item": "minecraft:golden_sword"
+    },
+    "d": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "id": "craft_defense:zombified_piglin_item",
+    "count": 1
+  }
+}

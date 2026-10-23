@@ -1,0 +1,228 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 162,
+    "height": 170,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "act1.png",
+          "use1Xscale": true,
+          "x": 132,
+          "y": 35,
+          "locked": true
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cancel",
+          "text": "Cancel",
+          "isUndecorated": false,
+          "onClick": "StartRaidButtonP",
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa1h",
+          "image": "chaa1u.png",
+          "hoveredImage": "chaa1h.png",
+          "onClick": "D1P",
+          "x": 141,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa2u",
+          "image": "chaa2u.png",
+          "hoveredImage": "chaa2h.png",
+          "onClick": "D2P",
+          "x": 180,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa3u",
+          "image": "chaa3u.png",
+          "hoveredImage": "chaa3h.png",
+          "onClick": "D6P",
+          "x": 218,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa4u",
+          "image": "chaa4u.png",
+          "hoveredImage": "chaa4h.png",
+          "onClick": "D7P",
+          "x": 258,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa5u",
+          "image": "chaa5u.png",
+          "hoveredImage": "chaa5h.png",
+          "onClick": "D3P",
+          "x": 159,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa6u",
+          "image": "chaa6u.png",
+          "hoveredImage": "chaa6h.png",
+          "onClick": "D5P",
+          "x": 200,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chaa7u",
+          "image": "chaa7u.png",
+          "hoveredImage": "chaa7h.png",
+          "onClick": "D4P",
+          "x": 240,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_half_money",
+          "text": {
+            "fixedValue": "Half Money"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_unsellable",
+          "text": {
+            "fixedValue": "Unsellable"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 182,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_hard_mode",
+          "text": {
+            "fixedValue": "Hard Mode"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 222,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_insane_mode",
+          "text": {
+            "fixedValue": "Insane Mode"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 263,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_aerial_enemies",
+          "text": {
+            "fixedValue": "Aerial Enemies"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 164,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_single_units",
+          "text": {
+            "fixedValue": "Single Units"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_no_unit_level",
+          "text": {
+            "fixedValue": "No Unit Level"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 245,
+          "y": 121,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

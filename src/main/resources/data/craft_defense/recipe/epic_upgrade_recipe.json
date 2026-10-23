@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:tower_gem"
+    },
+    "b": {
+      "item": "craft_defense:rare_dust"
+    },
+    "c": {
+      "item": "craft_defense:first_world_trophy"
+    }
+  },
+  "result": {
+    "id": "craft_defense:epic_upgrade",
+    "count": 1
+  }
+}

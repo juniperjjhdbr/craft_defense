@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/endtower",
+  "textures": {
+    "all": "craft_defense:block/end_block_texture1",
+    "particle": "craft_defense:block/end_block_texture1",
+    "1": "craft_defense:block/end_block_texture1"
+  },
+  "render_type": "solid"
+}

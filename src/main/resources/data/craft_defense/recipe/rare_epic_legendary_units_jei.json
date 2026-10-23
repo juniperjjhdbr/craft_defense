@@ -1,0 +1,11 @@
+{
+  "type": "craft_defense:unit_machine_jei",
+  "ingredients": [
+    {
+      "tag": "craft_defense:upgrades/legendary"
+    }
+  ],
+  "output": {
+    "tag": "craft_defense:units/rare_epic_legendary"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "craft_defense:custom/orange_portal_particle"
+    },
+    "facing=east": {
+      "model": "craft_defense:custom/orange_portal_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "craft_defense:custom/orange_portal_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "craft_defense:custom/orange_portal_particle",
+      "y": 270
+    }
+  }
+}

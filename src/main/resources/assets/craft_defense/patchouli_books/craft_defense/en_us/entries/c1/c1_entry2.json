@@ -1,0 +1,18 @@
+{
+    "name": "Raid Manager",
+    "icon": "craft_defense:raid_manager",
+    "category": "craft_defense:c1",
+    "sortnum": 1,
+    "pages": [
+        {
+        "type": "patchouli:spotlight",
+        "item": "craft_defense:raid_manager",
+        "text": "The Raid Manager is used to start raids. It allows you to select a map, and an act of that map. There are currently 6 maps avaiable with 5 acts each. $(br2)To start a raid, simply right-click the Raid Manager and select the desired map and act."
+        },
+        {
+        "type": "patchouli:crafting",
+        "recipe": "craft_defense:raid_manager_recipe",
+        "text": "The Raid Manager can be crafted using the following recipe."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust",
+      "CUSTOM:FirstWorldTrophy",
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:RareDust",
+      "CUSTOM:TowerGem"
+    ],
+    "recipeReturnStack": "CUSTOM:EpicUpgrade",
+    "name": "epic_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

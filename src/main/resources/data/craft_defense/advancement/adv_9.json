@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "craft_defense:unit_machine"
+    },
+    "title": {
+      "translate": "advancements.adv_9.title"
+    },
+    "description": {
+      "translate": "advancements.adv_9.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_9_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "craft_defense:unit_machine",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "craft_defense:adv_0"
+}

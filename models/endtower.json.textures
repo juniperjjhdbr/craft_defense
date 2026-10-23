@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "end_block_texture1"
+      },
+      "name": "default"
+    }
+  }
+}

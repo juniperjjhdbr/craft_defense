@@ -1,0 +1,22 @@
+{
+    "name": "The Basics",
+    "icon": "craft_defense:start_tower",
+    "category": "craft_defense:c1",
+    "sortnum": 0,
+    "pages": [
+        {
+        "type": "patchouli:text",
+        "text": "Welcome to Craft Defense! This guide will help you understand the basic mechanics of the mod and how to play it effectively.$(br2)In this guide, you will find information about towers, enemies, and the mod's core systems."
+        },
+        {
+        "type": "patchouli:relations",
+        "entries": [
+            "craft_defense:c1/c1_entry2",
+            "craft_defense:c1/c1_entry3",
+            "craft_defense:c1/c1_entry4",
+            "craft_defense:c1/c1_entry5",
+            "craft_defense:c1/c1_entry6"
+        ]
+        }
+    ]
+}

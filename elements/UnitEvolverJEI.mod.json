@@ -1,0 +1,82 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "evo_jei.png",
+    "width": 153,
+    "height": 93,
+    "icon": "CUSTOM:UnitEvolver",
+    "craftingtables": [
+      "CUSTOM:UnitEvolver"
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": true,
+    "enableStringList": false,
+    "disableJeiBorder": true,
+    "title": "Unit Evolver",
+    "slotList": [
+      {
+        "type": "OUTPUT",
+        "x": 124,
+        "y": 20,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 25,
+        "y": 11,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 11,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 11,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 25,
+        "y": 29,
+        "slotid": 3
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 29,
+        "slotid": 4
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 29,
+        "slotid": 5
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 65,
+        "slotid": 6
+      },
+      {
+        "type": "INPUT",
+        "x": 25,
+        "y": 65,
+        "slotid": 7
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

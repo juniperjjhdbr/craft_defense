@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.POLISHED_DEEPSLATE",
+      "Items.COMPARATOR",
+      "Blocks.POLISHED_DEEPSLATE",
+      "Items.IRON_INGOT",
+      "Items.DIAMOND",
+      "Items.IRON_INGOT",
+      "Blocks.POLISHED_DEEPSLATE",
+      "Items.REDSTONE",
+      "Blocks.POLISHED_DEEPSLATE"
+    ],
+    "recipeReturnStack": "CUSTOM:RaidManager",
+    "name": "raid_manager_recipe",
+    "namespace": "mod"
+  }
+}

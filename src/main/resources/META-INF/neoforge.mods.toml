@@ -1,0 +1,88 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="craft_defense"
+version="6.2"
+displayName="Craft Defense"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/craft-defense"
+logoFile="logo.png"
+credits="juniperhdbr & polarks9"
+authors="juniperhdbr & polarks9"
+description="Adds a new Tower Defense mode to minecraft!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.craft_defense]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.232,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.craft_defense]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.craft_defense]]
+    modId="prickle"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="attributefix"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="bookshelf"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="structureexpansion"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="geckolib"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="architectury"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.craft_defense]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.craft_defense]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

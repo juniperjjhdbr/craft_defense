@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/starttower",
+  "textures": {
+    "all": "craft_defense:block/start_block_texture",
+    "particle": "craft_defense:block/start_block_texture",
+    "1": "craft_defense:block/start_block_texture"
+  },
+  "render_type": "solid"
+}

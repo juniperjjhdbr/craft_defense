@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:rare_dust"
+    },
+    "b": {
+      "item": "craft_defense:tower_gem"
+    },
+    "c": {
+      "item": "minecraft:slime_ball"
+    },
+    "d": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "id": "craft_defense:slime_unit_item",
+    "count": 1
+  }
+}

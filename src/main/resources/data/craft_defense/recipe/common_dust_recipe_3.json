@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:tower_gem"
+    }
+  },
+  "result": {
+    "id": "craft_defense:common_dust",
+    "count": 2
+  }
+}

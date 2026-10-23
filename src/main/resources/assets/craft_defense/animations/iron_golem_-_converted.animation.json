@@ -1,0 +1,155 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"block5": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"block1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"block2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"block3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"block4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"attack": {
+			"animation_length": 0.25,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [-180, 0, 0]
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [-180, 0, 0]
+						}
+					}
+				},
+				"blocks": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"spawn": {
+			"animation_length": 2,
+			"bones": {
+				"block1": {
+					"position": {
+						"0.0": {
+							"vector": [0, -30, 0]
+						},
+						"0.5": {
+							"vector": [0, -30, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"block3": {
+					"position": {
+						"0.0": {
+							"vector": [30, 0, 0]
+						},
+						"0.25": {
+							"vector": [30, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"block4": {
+					"position": {
+						"0.0": {
+							"vector": [-30, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"block5": {
+					"position": {
+						"0.0": {
+							"vector": [0, 30, 0]
+						},
+						"0.75": {
+							"vector": [0, 30, 0]
+						},
+						"1.0": {
+							"vector": [0, 1, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"blocks": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"1.25": {
+							"vector": [1, 1, 1]
+						},
+						"2.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutBack"
+						}
+					}
+				},
+				"iron_golem": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						},
+						"1.25": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [1, 1, 1],
+							"easing": "easeOutBack"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

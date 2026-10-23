@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"attack": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"vector": [-73.05099, 34.96182, -1.74942],
+						"easing": "linear"
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-74.77926, -9.65594, -2.61298],
+						"easing": "linear"
+					}
+				},
+				"bow": {
+					"rotation": {
+						"vector": [-90, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [4, 7, -8],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"idle": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

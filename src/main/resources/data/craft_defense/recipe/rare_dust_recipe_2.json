@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "craft_defense:epic_dust"
+    }
+  ],
+  "result": {
+    "id": "craft_defense:rare_dust",
+    "count": 2
+  }
+}

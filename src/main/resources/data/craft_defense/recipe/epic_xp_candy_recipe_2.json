@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "craft_defense:legendary_xp_candy"
+    }
+  ],
+  "result": {
+    "id": "craft_defense:epic_xp_candy",
+    "count": 4
+  }
+}

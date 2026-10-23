@@ -1,0 +1,100 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 170,
+    "height": 100,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_blue_portal_config",
+          "text": {
+            "fixedValue": "Blue Portal Config"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 141,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1",
+          "text": "+1",
+          "isUndecorated": false,
+          "onClick": "Add1Button",
+          "width": 35,
+          "height": 20,
+          "x": 177,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_11",
+          "text": "-1",
+          "isUndecorated": false,
+          "onClick": "Remove1Button",
+          "width": 35,
+          "height": 20,
+          "x": 222,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_save_and_place",
+          "text": "Save and Place",
+          "isUndecorated": false,
+          "onClick": "PlaceOrangePortalP",
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_position_to_tp",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPositionToTP"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 141,
+          "y": 98,
+          "locked": false
+        }
+      }
+    ],
+    "onTick": "BluePortalGUIWhileThisGUIIsOpenTick",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

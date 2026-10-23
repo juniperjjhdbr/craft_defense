@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.COPPER_BLOCK",
+      "CUSTOM:FirstWorldTrophy",
+      "Blocks.COPPER_BLOCK",
+      "Blocks.TUFF_BRICKS",
+      "TAG:mod:trait_reroller_ingredient",
+      "Blocks.TUFF_BRICKS",
+      "Blocks.TUFF_BRICKS",
+      "Blocks.TUFF_BRICKS",
+      "Blocks.TUFF_BRICKS"
+    ],
+    "recipeReturnStack": "CUSTOM:TraitReroller",
+    "name": "trait_reroller_recipe",
+    "namespace": "mod"
+  }
+}

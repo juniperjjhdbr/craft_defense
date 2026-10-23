@@ -1,0 +1,820 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 261,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "level_complete2.png",
+          "use1Xscale": true,
+          "x": 2,
+          "y": -10,
+          "locked": true
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_claim",
+          "text": "Claim",
+          "isUndecorated": false,
+          "onClick": "ClaimButton",
+          "width": 51,
+          "height": 20,
+          "x": 290,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "towergem.png",
+          "use1Xscale": false,
+          "displayCondition": "TraitCubeCondition2",
+          "x": 240,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_16",
+          "text": {
+            "fixedValue": "16x",
+            "name": "GemsToGive"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TraitCubeCondition2",
+          "x": 258,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_xp_granted",
+          "text": {
+            "fixedValue": "",
+            "name": "XpGranted"
+          },
+          "color": {
+            "value": -13369549,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TraitCubeCondition2",
+          "x": 294,
+          "y": 175,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w1throphy.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1x",
+          "text": {
+            "fixedValue": "1x"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "WaveReturnP0",
+          "x": 348,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w2throphy.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP2",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traitcube.png",
+          "use1Xscale": false,
+          "displayCondition": "TraitCubeCondition",
+          "x": 330,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_traits_cube_return",
+          "text": {
+            "fixedValue": "",
+            "name": "TraitsCubeReturn"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "TraitCubeCondition",
+          "x": 348,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w3throphy.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP3",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "evolution_crystal1.png",
+          "use1Xscale": false,
+          "displayCondition": "ReturnEvolutionCrystalChance",
+          "x": 240,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1x1",
+          "text": {
+            "fixedValue": "1x"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "ReturnEvolutionCrystalChance",
+          "x": 258,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "porkchop.png",
+          "use1Xscale": false,
+          "displayCondition": "L1",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_common_amount",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnCommonAmount"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 258,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mutton.png",
+          "use1Xscale": false,
+          "displayCondition": "L2",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chicken.png",
+          "use1Xscale": false,
+          "displayCondition": "L3",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "beef.png",
+          "use1Xscale": false,
+          "displayCondition": "L4",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "spruce_sapling.png",
+          "use1Xscale": false,
+          "displayCondition": "L5",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal.png",
+          "use1Xscale": false,
+          "displayCondition": "L6",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rotten_flesh.png",
+          "use1Xscale": false,
+          "displayCondition": "L7",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": false,
+          "displayCondition": "L8",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "string.png",
+          "use1Xscale": false,
+          "displayCondition": "L9",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gunpowder.png",
+          "use1Xscale": false,
+          "displayCondition": "L10",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emerald.png",
+          "use1Xscale": false,
+          "displayCondition": "L11",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wheat.png",
+          "use1Xscale": false,
+          "displayCondition": "L12",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "carrot.png",
+          "use1Xscale": false,
+          "displayCondition": "L13",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "potato.png",
+          "use1Xscale": false,
+          "displayCondition": "L14",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cactus_je4.png",
+          "use1Xscale": true,
+          "displayCondition": "L15",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dead_bush.png",
+          "use1Xscale": false,
+          "displayCondition": "L16",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "skeleton_item.png",
+          "use1Xscale": false,
+          "displayCondition": "L17",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "L18",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "feather.png",
+          "use1Xscale": false,
+          "displayCondition": "LL1",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_rare_amount",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnRareAmount"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 348,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "white_wool_je2_be2.png",
+          "use1Xscale": true,
+          "displayCondition": "LL2",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "leather.png",
+          "use1Xscale": false,
+          "displayCondition": "LL3",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "honey_bottle.png",
+          "use1Xscale": false,
+          "displayCondition": "LL4",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rabbit_foot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL5",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL6",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL7",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gold_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL8",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "displayCondition": "LL9",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redstonedust.png",
+          "use1Xscale": false,
+          "displayCondition": "LL10",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lapis_lazuli.png",
+          "use1Xscale": false,
+          "displayCondition": "LL11",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal.png",
+          "use1Xscale": false,
+          "displayCondition": "LL12",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "displayCondition": "LL13",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "obsidian_je3_be2.png",
+          "use1Xscale": true,
+          "displayCondition": "LL14",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL15",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "villager_item.png",
+          "use1Xscale": false,
+          "displayCondition": "LL16",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "displayCondition": "LL17",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "L18",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": "LL19",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stray_item.png",
+          "use1Xscale": false,
+          "displayCondition": "LL20",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C1",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C2",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rare_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C3",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C4",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rare_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C5",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "epic_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "C6",
+          "x": 299,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_candy_amount",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnCandyAmount"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 317,
+          "y": 166,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w4throphy.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP4",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w5throphy.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP5",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "w6throphy2.png",
+          "use1Xscale": false,
+          "displayCondition": "WaveReturnP6",
+          "x": 330,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "breeze_item.png",
+          "use1Xscale": false,
+          "displayCondition": "LBR1",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rare_exp_candy.png",
+          "use1Xscale": false,
+          "displayCondition": "LBR2",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "duplication_token.png",
+          "use1Xscale": false,
+          "displayCondition": "M1",
+          "x": 330,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "23_sem_titulo_20260816204235.png",
+          "use1Xscale": false,
+          "displayCondition": "M1",
+          "x": 240,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

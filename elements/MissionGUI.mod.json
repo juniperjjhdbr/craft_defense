@@ -1,0 +1,175 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 464,
+    "height": 261,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "act2.png",
+          "use1Xscale": true,
+          "x": -16,
+          "y": -10,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "act12u.png",
+          "use1Xscale": true,
+          "x": 182,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cancel",
+          "image": "cancel.png",
+          "hoveredImage": "cancelh.png",
+          "onClick": "ClaimButton",
+          "x": 218,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mission_1_plains",
+          "text": {
+            "fixedValue": "Mission #1 (Plains)"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 168,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_enemies_have_2x_health",
+          "text": {
+            "fixedValue": "Enemies have 2x health"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 159,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rewards",
+          "text": {
+            "fixedValue": "Rewards:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "duplication_token.png",
+          "use1Xscale": false,
+          "x": 182,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "towergem.png",
+          "use1Xscale": false,
+          "x": 207,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "23_sem_titulo_20260816204235.png",
+          "use1Xscale": false,
+          "x": 231,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_play",
+          "image": "play.png",
+          "hoveredImage": "playh.png",
+          "onClick": "M1P",
+          "x": 191,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_play",
+          "text": {
+            "fixedValue": "Play"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 191,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_cancel",
+          "text": {
+            "fixedValue": "Cancel"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 218,
+          "y": 170,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

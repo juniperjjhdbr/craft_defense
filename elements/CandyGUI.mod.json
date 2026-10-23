@@ -1,0 +1,434 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 19,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_evolution_crystal",
+          "text": {
+            "fixedValue": "XP Candy"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 74,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_unit_name_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnUnitName2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 69,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_common",
+          "text": {
+            "fixedValue": "Common"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 182,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_common_candy",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnCommonCandy"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 222,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rare",
+          "text": {
+            "fixedValue": "Rare"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 182,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_epic",
+          "text": {
+            "fixedValue": "Epic"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 182,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_rare_candy",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnRareCandy"
+          },
+          "color": {
+            "value": -10027009,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 213,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_epic_candy",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnEpicCandy"
+          },
+          "color": {
+            "value": -6749953,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 213,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_level_p",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnLevelP"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 96,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_xpp",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnXPP"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 96,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_xp_to_add",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnXPToAdd"
+          },
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 87,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_legendary",
+          "text": {
+            "fixedValue": "Legendary"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 276,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_legendary_candy",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnLegendaryCandy"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 330,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_max_all",
+          "text": "Max All",
+          "isUndecorated": false,
+          "onClick": "MaxAllP",
+          "width": 61,
+          "height": 20,
+          "x": 290,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_confirm",
+          "image": "confirm.png",
+          "hoveredImage": "confirmh.png",
+          "onClick": "ConfirmButtonP",
+          "x": 109,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_confirm",
+          "text": {
+            "fixedValue": "Confirm"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_plus",
+          "image": "plus.png",
+          "hoveredImage": "plush.png",
+          "onClick": "MoreCommonButton",
+          "x": 200,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_minus",
+          "image": "minus.png",
+          "hoveredImage": "minush.png",
+          "onClick": "LessCommonButton",
+          "x": 218,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_plus1",
+          "image": "plus.png",
+          "hoveredImage": "plush.png",
+          "onClick": "MoreRareButton",
+          "x": 200,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_minus1",
+          "image": "minus.png",
+          "hoveredImage": "minush.png",
+          "onClick": "LessRareButton",
+          "x": 218,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_plus2",
+          "image": "plus.png",
+          "hoveredImage": "plush.png",
+          "onClick": "MoreEpicButton",
+          "x": 200,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_minus2",
+          "image": "minus.png",
+          "hoveredImage": "minush.png",
+          "onClick": "LessEpicButton",
+          "x": 218,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_plus3",
+          "image": "plus.png",
+          "hoveredImage": "plush.png",
+          "onClick": "MoreLegendaryButton",
+          "x": 294,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_minus3",
+          "image": "minus.png",
+          "hoveredImage": "minush.png",
+          "onClick": "LessLegendaryButton",
+          "x": 312,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cancel",
+          "image": "cancel.png",
+          "hoveredImage": "cancelh.png",
+          "onClick": "ResetButtonP",
+          "x": 308,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_reset",
+          "text": {
+            "fixedValue": "Reset"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 308,
+          "y": 116,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": "CandyGUIThisGUIIsOpened",
+    "onTick": "CandyGUIWhileThisGUIIsOpenTick",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:third_world_trophy",
+    "craft_defense:unit_machine",
+    "craft_defense:unit_evolver",
+    "craft_defense:fourth_world_trophy",
+    "craft_defense:first_world_trophy",
+    "craft_defense:trait_reroller",
+    "craft_defense:sixth_world_trophy",
+    "craft_defense:second_world_trophy",
+    "craft_defense:raid_manager",
+    "craft_defense:fifth_world_trophy",
+    "craft_defense:unit_recycler",
+    "craft_defense:unit_incubator"
+  ]
+}

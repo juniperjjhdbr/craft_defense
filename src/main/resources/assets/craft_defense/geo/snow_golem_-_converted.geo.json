@@ -1,0 +1,107 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 2, 0]
+			},
+			"bones": [
+				{
+					"name": "snow_golem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "snow_golem",
+					"pivot": [0, 20, 0],
+					"cubes": [
+						{"origin": [-4, 20, -4], "size": [8, 8, 8], "inflate": -0.5, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "left_hand",
+					"parent": "snow_golem",
+					"pivot": [4.5, 18.75, 0]
+				},
+				{
+					"name": "left_hand_rotation",
+					"parent": "left_hand",
+					"pivot": [4, 17.75, 0],
+					"rotation": [0, 0, 57],
+					"cubes": [
+						{"origin": [3.5, 16.75, -1], "size": [12, 2, 2], "inflate": -0.5, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "right_hand",
+					"parent": "snow_golem",
+					"pivot": [-14.5, 18.75, 0]
+				},
+				{
+					"name": "right_hand_flip",
+					"parent": "right_hand",
+					"pivot": [-9.5, 17.75, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "right_hand_rotation",
+					"parent": "right_hand_flip",
+					"pivot": [-15, 17.75, 0],
+					"rotation": [0, 0, 57],
+					"cubes": [
+						{"origin": [-15.5, 16.75, -1], "size": [12, 2, 2], "inflate": -0.5, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "snow_golem",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-5, 11, -5], "size": [10, 10, 10], "inflate": -0.5, "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "body_bottom",
+					"parent": "snow_golem",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -6], "size": [12, 12, 12], "inflate": -0.5, "uv": [0, 36]}
+					]
+				},
+				{
+					"name": "blocks",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "blocks",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 16, 16], "uv": [0, 96]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "blocks",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 16, -8], "size": [16, 16, 16], "uv": [0, 96]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "blocks",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-8, 32, -8], "size": [16, 16, 16], "uv": [64, 96]}
+					]
+				}
+			]
+		}
+	]
+}

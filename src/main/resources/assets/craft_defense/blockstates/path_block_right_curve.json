@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "craft_defense:block/path_block_right_curve"
+    },
+    "facing=east": {
+      "model": "craft_defense:block/path_block_right_curve",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "craft_defense:block/path_block_right_curve",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "craft_defense:block/path_block_right_curve",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Tower Luck",
+    "icon": "towerluck",
+    "color": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": "TowerLuckEffectStartedapplied",
+    "onExpired": "TowerLuckEffectExpires"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_money_show_overlay",
+          "text": {
+            "fixedValue": "",
+            "name": "MoneyShowOverlay"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 207,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_wave_show_overlay",
+          "text": {
+            "fixedValue": "",
+            "name": "WaveShowOverlay"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 218,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shield3.png",
+          "use1Xscale": true,
+          "displayCondition": "ShieldBarP1",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shield_bar1.png",
+          "use1Xscale": true,
+          "displayCondition": "ShieldBarP2",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shield_bar2.png",
+          "use1Xscale": true,
+          "displayCondition": "ShieldBarP3",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shield_bar3.png",
+          "use1Xscale": true,
+          "displayCondition": "ShieldBarP4",
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_2",
+          "text": {
+            "fixedValue": "",
+            "name": "D2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": -1,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_1",
+          "text": {
+            "fixedValue": "",
+            "name": "D1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_3",
+          "text": {
+            "fixedValue": "",
+            "name": "D3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_4",
+          "text": {
+            "fixedValue": "",
+            "name": "D4"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_5",
+          "text": {
+            "fixedValue": "",
+            "name": "D5"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_6",
+          "text": {
+            "fixedValue": "",
+            "name": "D6"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_7",
+          "text": {
+            "fixedValue": "",
+            "name": "D7"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_8",
+          "text": {
+            "fixedValue": "",
+            "name": "D8"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_9",
+          "text": {
+            "fixedValue": "",
+            "name": "D9"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_10",
+          "text": {
+            "fixedValue": "",
+            "name": "D10"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_speed",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnSpeed"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 347,
+          "y": 229,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_11",
+          "text": {
+            "fixedValue": "",
+            "name": "D11"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_diff",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnDiff"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_LEFT",
+          "x": 2,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_map_p",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnMapP"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 335,
+          "y": 5,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_alive_enemies",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnAliveEnemies"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": "X1",
+          "anchorPoint": "TOP_RIGHT",
+          "x": 335,
+          "y": 14,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

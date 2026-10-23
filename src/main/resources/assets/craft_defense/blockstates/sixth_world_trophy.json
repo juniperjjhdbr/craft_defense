@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "craft_defense:block/sixth_world_trophy"
+    },
+    "facing=east": {
+      "model": "craft_defense:block/sixth_world_trophy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "craft_defense:block/sixth_world_trophy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "craft_defense:block/sixth_world_trophy",
+      "y": 270
+    }
+  }
+}

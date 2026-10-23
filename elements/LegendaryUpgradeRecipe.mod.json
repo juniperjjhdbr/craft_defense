@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:TraitCube",
+      "CUSTOM:SecondWorldTrophy",
+      "CUSTOM:TraitCube",
+      "CUSTOM:EpicDust",
+      "CUSTOM:EpicUpgrade",
+      "CUSTOM:EpicDust",
+      "CUSTOM:TraitCube",
+      "CUSTOM:ThirdWorldTrophy",
+      "CUSTOM:TraitCube"
+    ],
+    "recipeReturnStack": "CUSTOM:LegendaryUpgrade",
+    "name": "legendary_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

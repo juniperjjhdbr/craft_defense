@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.EMERALD_BLOCK",
+      "Blocks.EMERALD_BLOCK",
+      "Blocks.EMERALD_BLOCK",
+      "Blocks.POLISHED_BLACKSTONE_BRICKS",
+      "CUSTOM:EvolutionCrystal",
+      "Blocks.POLISHED_BLACKSTONE_BRICKS",
+      "Blocks.POLISHED_BLACKSTONE_BRICKS",
+      "Blocks.POLISHED_BLACKSTONE_BRICKS",
+      "Blocks.POLISHED_BLACKSTONE_BRICKS"
+    ],
+    "recipeReturnStack": "CUSTOM:UnitEvolver",
+    "name": "unit_evolver_recipe",
+    "namespace": "mod"
+  }
+}

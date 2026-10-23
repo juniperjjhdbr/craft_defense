@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "craft_defense:legendary_upgrade",
+    "craft_defense:mythic_upgrade"
+  ]
+}

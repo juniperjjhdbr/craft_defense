@@ -1,0 +1,9 @@
+{
+  "parent": "craft_defense:custom/tower_manager",
+  "textures": {
+    "all": "craft_defense:block/animated_towermanager",
+    "particle": "craft_defense:block/animated_towermanager",
+    "0": "craft_defense:block/animated_towermanager"
+  },
+  "render_type": "solid"
+}

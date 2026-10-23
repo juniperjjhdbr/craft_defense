@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "craft_defense:epic_dust"
+    },
+    "b": {
+      "item": "craft_defense:tower_gem"
+    },
+    "c": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "result": {
+    "id": "craft_defense:cave_spider_unit_item",
+    "count": 1
+  }
+}

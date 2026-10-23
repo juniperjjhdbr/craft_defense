@@ -1,0 +1,18 @@
+{
+    "name": "Unit Machine",
+    "icon": "craft_defense:unit_machine",
+    "category": "craft_defense:c1",
+    "sortnum": 4,
+    "pages": [
+        {
+        "type": "patchouli:spotlight",
+        "item": "craft_defense:unit_machine",
+        "text": "The Unit Machine is a block that allows you to roll different types of units. You can use Tower Gems into the machine to roll for new units. Some units may require a special upgrade to be rolled, such as epic and legendary units."
+        },
+        {
+        "type": "patchouli:crafting",
+        "recipe": "craft_defense:unit_machine_recipe",
+        "text": "Most units are obtained rolling in the unit machine, but the first two common units are given for free."
+        }
+    ]
+}

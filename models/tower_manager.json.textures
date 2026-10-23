@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "animated_towermanager"
+      },
+      "name": "default"
+    }
+  }
+}

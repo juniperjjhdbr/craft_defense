@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "Items.ARROW",
+    "showParticles": true,
+    "actionSound": "",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 0.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Modelarrow",
+    "customModelTexture": "arrow.png",
+    "modelWidth": 0.1,
+    "modelHeight": 0.1,
+    "onHitsEntity": "ArrowProjectileProcedure"
+  }
+}

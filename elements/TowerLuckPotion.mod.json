@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Tower Luck",
+    "splashName": "Splash Potion of Tower Luck",
+    "lingeringName": "Lingering Potion of Tower Luck",
+    "arrowName": "Arrow of Tower Luck",
+    "effects": [
+      {
+        "effect": "CUSTOM:TowerLuck",
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

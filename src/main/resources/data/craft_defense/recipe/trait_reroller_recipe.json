@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_block"
+    },
+    "b": {
+      "item": "craft_defense:first_world_trophy"
+    },
+    "c": {
+      "item": "minecraft:tuff_bricks"
+    },
+    "d": {
+      "tag": "craft_defense:trait_reroller_ingredient"
+    }
+  },
+  "result": {
+    "id": "craft_defense:trait_reroller",
+    "count": 1
+  }
+}

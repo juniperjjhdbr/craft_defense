@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:EpicDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:EpicDust",
+      "Items.GOLD_INGOT",
+      "CUSTOM:TowerGem",
+      "Items.GOLD_INGOT",
+      "CUSTOM:EpicDust",
+      "CUSTOM:TowerGem",
+      "CUSTOM:EpicDust"
+    ],
+    "recipeReturnStack": "CUSTOM:PiglinUnitItem",
+    "name": "piglin_unit_item_recipe",
+    "namespace": "mod"
+  }
+}

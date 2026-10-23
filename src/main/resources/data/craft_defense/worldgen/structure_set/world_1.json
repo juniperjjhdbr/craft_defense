@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "craft_defense:world_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 1,
+    "separation": 0,
+    "salt": 707654823
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "craft_defense:block/invsblock",
+    "particle": "craft_defense:block/invsblock"
+  },
+  "render_type": "translucent"
+}

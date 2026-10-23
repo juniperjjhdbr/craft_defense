@@ -1,0 +1,284 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 250,
+    "height": 220,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "quests2.png",
+          "use1Xscale": true,
+          "x": 88,
+          "y": 9,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_resets_every_1h",
+          "text": {
+            "fixedValue": "Resets every 1h",
+            "name": "ReturnRemaining1h"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 294,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_resets_evert_3h",
+          "text": {
+            "fixedValue": "Resets every 3h",
+            "name": "ReturnRemaining3h"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 294,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_resets_every_6h",
+          "text": {
+            "fixedValue": "Resets every 6h",
+            "name": "ReturnRemaining6h"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 294,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_resets_every_24h",
+          "text": {
+            "fixedValue": "Resets every 24h",
+            "name": "ReturnRemaining24h"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 294,
+          "y": 215,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_quest_1h",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnQuest1h"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_quest_3h",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnQuest3h"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_quest_6h",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnQuest6h"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_quest_24h",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnQuest24h"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "common_exp_candy.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x10",
+          "text": {
+            "fixedValue": "x16"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 150,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rare_exp_candy.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x101",
+          "text": {
+            "fixedValue": "x16"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 150,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "epic_exp_candy.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 166,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x102",
+          "text": {
+            "fixedValue": "x16"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 150,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "legendary_exp_candy.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 206,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x103",
+          "text": {
+            "fixedValue": "x16"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 150,
+          "y": 211,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

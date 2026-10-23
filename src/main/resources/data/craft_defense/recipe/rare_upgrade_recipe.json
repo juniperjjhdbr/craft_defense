@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "craft_defense:tower_gem"
+    }
+  },
+  "result": {
+    "id": "craft_defense:rare_upgrade",
+    "count": 1
+  }
+}

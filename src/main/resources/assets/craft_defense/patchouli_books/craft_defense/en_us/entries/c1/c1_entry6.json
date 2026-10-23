@@ -1,0 +1,17 @@
+{
+    "name": "Raid Functionality",
+    "icon": "craft_defense:end_tower",
+    "category": "craft_defense:c1",
+    "sortnum": 5,
+    "pages": [
+        {
+        "type": "patchouli:text",
+        "title": "craft_defense:raids",
+        "text": "Raids are the main feature of Craft Defense. They are waves of enemies that will try to attack the blue tower. The player must defend the tower by placing units to defeat the enemies. $(br2)In total there are 15 waves with the last spawning a boss, an enemy with way more health than the other enemies."
+        },
+        {
+        "type": "patchouli:text",
+        "text": "If an enemy reaches the blue tower, a shield will be lost. If there are no shields left, the game instantly ends and the players will be teleported back to their original positions.$(br2)Otherwise if all the enemies are defeated, the players will win some rewards and will be also teleported back to their original positions."
+        }
+    ]
+}

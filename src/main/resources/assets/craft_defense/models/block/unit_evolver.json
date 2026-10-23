@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "craft_defense:block/polished_blackstone_bricks",
+    "up": "craft_defense:block/unit_evolver_top",
+    "north": "craft_defense:block/unit_evolver_side1",
+    "east": "craft_defense:block/unit_evolver_side2",
+    "south": "craft_defense:block/unit_evolver_side2",
+    "west": "craft_defense:block/unit_evolver_side2",
+    "particle": "craft_defense:block/polished_blackstone_bricks"
+  },
+  "render_type": "solid"
+}

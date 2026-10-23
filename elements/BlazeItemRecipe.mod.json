@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "unit_evolver_jei",
+    "ingredients": [
+      "CUSTOM:BreezeUnitItem",
+      "Items.BLAZE_ROD",
+      "Items.FIRE_CHARGE",
+      "CUSTOM:LegendaryDust",
+      "Blocks.AIR",
+      "Blocks.AIR",
+      "CUSTOM:MythicUpgrade",
+      "CUSTOM:EvolutionCrystal"
+    ],
+    "integers": [
+      1,
+      4,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    "strings": [],
+    "recipetype": "UnitEvolverJEI",
+    "results": [
+      "CUSTOM:BlazeUnitItem"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

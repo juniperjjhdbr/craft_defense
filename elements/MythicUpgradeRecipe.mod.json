@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:EvolutionCrystal",
+      "CUSTOM:FourthWorldTrophy",
+      "CUSTOM:EvolutionCrystal",
+      "CUSTOM:LegendaryDust",
+      "CUSTOM:LegendaryUpgrade",
+      "CUSTOM:LegendaryDust",
+      "CUSTOM:EvolutionCrystal",
+      "CUSTOM:FifthWorldTrophy",
+      "CUSTOM:EvolutionCrystal"
+    ],
+    "recipeReturnStack": "CUSTOM:MythicUpgrade",
+    "name": "mythic_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

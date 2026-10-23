@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ore"
+    },
+    "title": {
+      "translate": "advancements.adv_4.title"
+    },
+    "description": {
+      "translate": "advancements.adv_4.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_4_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "craft_defense:adv_3"
+}

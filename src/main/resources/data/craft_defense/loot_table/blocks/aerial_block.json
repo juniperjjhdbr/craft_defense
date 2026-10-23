@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "craft_defense:blocks/aerial_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "craft_defense:aerial_block"
+        }
+      ]
+    }
+  ]
+}
